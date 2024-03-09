@@ -8,10 +8,10 @@
 #define SOUND_SPEED 0.034
 
 // MQTT broker configuration
-const char* mqttBroker = "34.101.245.2";
+const char* mqttBroker = "0.0.0.0";
 const int mqttPort = 1883;
-const char* mqttUser = "user1";
-const char* mqttPassword = "qweasd123";
+const char* mqttUser = "";
+const char* mqttPassword = "";
 const char* mqttTopic = "api-topic";
 const char* deviceID = "1";  //device id === rid
 // WiFi configuration
